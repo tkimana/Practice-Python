@@ -6,8 +6,8 @@
 #is_cool= True
 
 #multiple assignment 
-x,y,name, is_cool, name=(1 , 2.4, ' string', True, ' Theo')
+x,y,name, is_cool=(1 , 2.4, ' string', True)
 
-print(x ,y ,name, is_cool, name)
+print(x ,y ,name, is_cool)
 
 print(type(is_cool))
