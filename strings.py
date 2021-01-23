@@ -13,7 +13,6 @@ age= 37
 
 #print('My name is {name} and I am {age}'.format(name=name, age=age))
 
-
 #F-Strings (3.6+)
 
 #print(f'Hello my name is{name} and Iam {age}')
@@ -34,7 +33,6 @@ print(s.upper())
 
 print(s.lower())
 
-
 # Swap Case
 
 print(s.swapcase())
@@ -44,7 +42,6 @@ print(s.swapcase())
 print(len(s))
 
 # Replace 
-
 
 print(s.replace('worl', 'DREK'))
 
