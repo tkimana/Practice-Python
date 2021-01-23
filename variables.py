@@ -6,8 +6,11 @@
 #is_cool= True
 
 #multiple assignment 
-x,y,name, is_cool=(1 , 2.4, ' string', True)
+x,y,name, is_cool, date=(1 , 2.4, ' string', True, '01/01/2020')
 
-print(x ,y ,name, is_cool)
 
-print(type(is_cool))
+x= str(x)
+
+print(x)
+
+#a = x+y
