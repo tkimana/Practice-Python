@@ -1,7 +1,7 @@
 #Strings in python are surrounded by either single or double quotation marks.
 
-name='Theo'
-age= 37
+name ='Theo'
+age = 37
 
 #Concatenate
 
