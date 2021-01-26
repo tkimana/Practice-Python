@@ -1,6 +1,6 @@
 #Strings in python are surrounded by either single or double quotation marks.
 
-name='Theoo'
+name='Theo'
 age= 37
 
 #Concatenate
@@ -19,7 +19,7 @@ age= 37
 
 #String methods
 
-s='hello world'
+s = 'hello world'
 
 #Capitalize string
 
