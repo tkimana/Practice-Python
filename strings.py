@@ -55,6 +55,3 @@ print(s.find('h'))
 print(s.split(' '))
 
 
-# Join 
-
-print(s.join(' '))
