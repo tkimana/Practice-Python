@@ -53,5 +53,3 @@ print(s.find('h'))
 #Split 
 
 print(s.split(' '))
-
-
