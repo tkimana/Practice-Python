@@ -50,6 +50,17 @@ fruits.pop(2)
 
 fruits.reverse()
 
-print(fruits)
+#Sort list
 
+fruits.sort()
+
+# Sort list
+
+fruits.sort(reverse=True)
+
+# Change a value
+
+fruits[2]='pineple'
+
+print(fruits)
 #print(numbers, numbers2) 
