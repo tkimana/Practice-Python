@@ -43,13 +43,12 @@ print(len(s))
 
 # Replace 
 
-print(s.replace('worl', 'DREK'))
+print(s.replace('world', 'DREK'))
 
 #Find position
 
 print(s.find('h'))
 
-
 #Split 
-
 print(s.split(' '))
+

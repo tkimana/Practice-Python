@@ -46,6 +46,10 @@ print(fruits)
 
 fruits.pop(2)
 
-print()
+#Reverse a list
+
+fruits.reverse()
+
+print(fruits)
 
 #print(numbers, numbers2) 
