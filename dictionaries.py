@@ -57,6 +57,10 @@ del (person['first_name'])
 
 print(person)
 
+
+person.pop('phone')
+
+print(person)
 #print(household)
 
 #print(person2, type(person2))
