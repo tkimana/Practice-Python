@@ -39,7 +39,7 @@ print('oranges' in fruits_sets)
 fruits_sets.add('banana')
 
 
-# Remove set 
+# Remove the set 
 
 fruits_sets.remove('apples')
 
