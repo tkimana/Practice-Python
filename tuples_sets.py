@@ -57,5 +57,4 @@ fruits_sets.clear()
 
 del fruits_sets
 
-
 print(fruits_sets)

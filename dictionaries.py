@@ -3,7 +3,6 @@
 #Note: Dictionaries are same as Objects in javascipt 
 
 #Create dict
-
 person={
 'first_name' : 'theodore',
 'last_name' : 'kimana',
@@ -42,5 +41,26 @@ print(person.values())
 # Get dict items
 
 print(person.items())
+
+# Copy dict
+household=person.copy()
+household['city']= 'Boston'
+
+
+# Remove item
+
+del(household['city'])
+
+print(household)
+
+del (person['first_name'])
+
+print(person)
+
+
+person.pop('phone')
+
+print(person)
+#print(household)
 
 #print(person2, type(person2))
