@@ -29,3 +29,28 @@ print(len(fruits))
 # Create a set 
 
 fruits_sets= {'apples', 'grapes', 'oranges'}
+
+# Check if in set
+
+print('oranges' in fruits_sets)
+
+# Add to set 
+
+fruits_sets.add('banana')
+
+
+# Remove set 
+
+fruits_sets.remove('apples')
+
+
+# Clear the set 
+
+fruits_sets.clear()
+
+# Delete the set 
+
+del fruits_sets
+
+
+print(fruits_sets)
