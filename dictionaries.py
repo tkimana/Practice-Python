@@ -67,6 +67,10 @@ print(person)
 print(len(household))
 
 
+
+person.pop('phone')
+
+print(person)
 #print(household)
 
 #print(person2, type(person2))
