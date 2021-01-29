@@ -63,4 +63,10 @@ person.pop('phone')
 print(person)
 #print(household)
 
+# Clear
+
+household.clear()
+
+print(household)
+
 #print(person2, type(person2))
