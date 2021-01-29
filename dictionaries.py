@@ -46,7 +46,6 @@ print(person.items())
 household=person.copy()
 household['city']= 'Boston'
 
-
 # Remove item
 
 del(household['city'])
@@ -56,6 +55,17 @@ print(household)
 del (person['first_name'])
 
 print(person)
+
+# Clear 
+
+person.clear()
+
+print(person)
+
+# Length in dictionaries
+
+print(len(household))
+
 
 #print(household)
 
