@@ -66,7 +66,7 @@ print(person)
 
 print(len(household))
 
-person.pop('phone')
+#person.pop('phone')
 
 print(person)
 #print(household)
@@ -77,6 +77,16 @@ household.clear()
 
 print(household)
 
-
-
 #print(person2, type(person2))
+
+
+
+# Create a list of dict
+
+people=[
+  {'name': 'james', 'age': '34'},
+  {'name': 'greg', 'age': '21'}
+]
+print(people)
+# If you want to get the name in the list dict
+print(people[1]['name'])
