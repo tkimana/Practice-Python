@@ -2,7 +2,7 @@
 
 
 x=10
-y=50
+y=10
 
 # Comparison Operators (==, !=, >, <, >= , <=) - Used to compare values
 
@@ -14,6 +14,25 @@ if x > y:
 
 else: 
     print(f'{y} is greater than {x}')
+
+
+# elif
+
+if x > y:
+    print(f'{x} is greater than {y}')
+
+elif x == y: 
+    print(f'{x} is equal to {y}')
+
+else: 
+    print(f'{y} is greater than {x}')
+
+
+# Nested if statement 
+
+if x> 2:
+    if x <=2:
+        print(f'{x} is greater than 2 and less than or equal to 10')
 
 
 
