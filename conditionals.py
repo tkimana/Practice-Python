@@ -31,8 +31,14 @@ else:
 # Nested if statement 
 
 if x> 2:
-    if x <=2:
+    if x <= 10:
         print(f'{x} is greater than 2 and less than or equal to 10')
+
+
+# Logical operators (and, or, not) - Used to combine conditional statements
+
+if x > 2 and x<=10:
+    print(f'{x} is greater than 2 and less than or equal to 10')
 
 
 
