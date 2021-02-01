@@ -79,8 +79,6 @@ print(household)
 
 #print(person2, type(person2))
 
-
-
 # Create a list of dict
 
 people=[
