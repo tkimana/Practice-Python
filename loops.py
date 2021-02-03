@@ -10,6 +10,15 @@ people = ['john', 'james', 'greg', 'susan']
 
 # Use Break 
 for person in people:
-    if person=='susan':
+    if person=='greg':
         break
     print(f'Current person:{person}')
+
+
+# Use Continue
+
+for person in people:
+    if person=='greg':
+        continue
+    print(f'Current person1:{person}')
+
