@@ -17,8 +17,25 @@ for person in people:
 
 # Use Continue
 
-for person in people:
-    if person=='greg':
+for i in people:
+    if i=='greg':
         continue
-    print(f'Current person1:{person}')
+    print(f'Current person1:{i}')
+
+# use range
+
+for i in range(len(people)):
+    print(people[i])
+
+
+for i in range(0, 100):
+    print(i)
+
+# While loops execute a set of statements as long as condition is true
+
+count= 0
+while count <=10:
+    print(f'Number: {count}')
+    count +=1
+
 
