@@ -38,6 +38,8 @@ class Music:
     def profile(self):
         return f'Genre: {self.genre}, DateProd: {self.dateprod}, Singer: {self.singer},Title: {self.title}, Description: {self.description}'
 
+Music1= Music('Country Music', '1998', 'Davis J', 'Take it from me', 'This is Jordan Davis Song produced in Nashville')
+print(Music1.profile())
 
 
  # Create customer class
@@ -59,10 +61,7 @@ class Customer(User):
         return f'My name is {self.name} and {self.email} is my email and Im {self.age} my balance is {self.balance}'
 
 # Iniitialize a Customer object
-
-Music1= Music('Country Music', '1998', 'Davis J', 'Take it from me', 'This is Jordan Davis Song produced in Nashville')
-greg= Customer('greg', 'greg@gmail.com', ' 124 gessner', 233)
-print(Music1.profile())
+greg= Customer('greg', 'greg@gmail.com', ' 124 gessner', 23)
 greg.set_balance(320)
 print(greg.greeting())
 
