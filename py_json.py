@@ -2,9 +2,8 @@
 
 import json
 
-userJSON= '{"first_name": "TK", "last_name":, "Joe", "age": 24}'
+userJSON = '{"first_name": "TK", "last_name": "Joe", "age": 24}'
 
 # Parse to dict
-
 user = json.loads(userJSON)
 print(user)
